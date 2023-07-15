@@ -2,6 +2,7 @@ import clsx from 'clsx';
 
 interface InputProps {
     className?: string;
+    [key: string]: any;
 }
 
 const Input = ({ className, ...props }: InputProps) => {
